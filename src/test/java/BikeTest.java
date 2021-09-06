@@ -6,7 +6,7 @@ public class BikeTest {
     @Test
     void testANewBikeIsWorking() {
         Bike bike = new Bike();
-        assertEquals(true, bike.getStatus());
+        assertEquals(true, bike.getIsWorking());
     }
 
 }

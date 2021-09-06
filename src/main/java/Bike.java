@@ -2,14 +2,14 @@
 
 public class Bike {
 
-    private boolean status;
+    private boolean isWorking;
 
     public Bike() {
-        this.status = true;
+        this.isWorking = true;
     }
 
-    public boolean getStatus() {
-        return this.status;
+    public boolean getIsWorking() {
+        return this.isWorking;
     }
 
 }
