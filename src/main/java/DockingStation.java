@@ -16,4 +16,8 @@ public class DockingStation {
     public void dock(Bike bike) {
         bikesList.add(bike);
     }
+
+    public Bike release() {
+        return bikesList.remove((bikesList.size() - 1)); // returns the last item in the ArrayList
+    }
 }

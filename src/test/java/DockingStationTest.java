@@ -31,4 +31,12 @@ public class DockingStationTest {
         assertEquals(1, dockingStation.getBikesList().size());
     }
 
+    @Test
+    @DisplayName("A docking station can 'release' a bike")
+    void testCanReleaseABike() {
+        dockingStation.dock(mockBike);
+        dockingStation.release();
+        assertEquals(0, dockingStation.getBikesList().size());
+    }
+
 }
