@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DockingStationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-09T13:42:15" hostname="Ians-Air.lan" time="0.051">
+<testsuite name="DockingStationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-09T22:20:51" hostname="Ians-Air.lan" time="0.04">
   <properties/>
-  <testcase name="A new docking station should be empty to start with" classname="DockingStationTest" time="0.038"/>
+  <testcase name="A new docking station should be empty to start with" classname="DockingStationTest" time="0.03"/>
   <testcase name="A docking station can 'dock' a bike" classname="DockingStationTest" time="0.001"/>
   <testcase name="A docking station can 'release' a bike" classname="DockingStationTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>

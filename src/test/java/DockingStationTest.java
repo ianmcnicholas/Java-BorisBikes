@@ -10,6 +10,7 @@ public class DockingStationTest {
 
     @Mock
     Bike mockBike = mock(Bike.class);
+    //  this is where the bike is mocked
 
     private DockingStation dockingStation;
 
